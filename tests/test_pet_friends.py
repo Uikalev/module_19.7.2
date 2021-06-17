@@ -188,4 +188,4 @@ def test_update_self_pet_info_without_data(name="", animal_type="Собака", 
     else:
         raise Exception("There is no my pets")
 
-    #Ожидается ошибка, но вместо этого данные о питомце заменяются на None
+    # Ожидается ошибка, но вместо этого данные о питомце заменяются на None
